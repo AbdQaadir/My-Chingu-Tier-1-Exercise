@@ -1,0 +1,116 @@
+:root{
+    --lightBlue: #55c0ec;
+    /* --darkBlue: #000d46;*/
+    --mainBlack: rgba(0, 0, 0, 0.6);
+    --butter: #ffd05a;
+    --white: #fafafa;
+    --maingreen: #90ddaa;
+}
+body{
+    font-family: 'Signika', sans-serif;
+    color: var(--mainBlack);
+    font-weight: 300 !important;
+    line-height: 1.5;
+}
+/* nav bar */
+.nav-link{
+    font-size: 1.2rem;
+    color: var(--butter);
+    transition: all .4s ease-in-out;
+    padding: 10px;
+    opacity: .75;
+}
+.nav-link:hover{
+    color: var(--white);
+}
+.navbar{
+    background: var(--mainBlack);
+    width: 100%;
+}
+.main-header{
+    background: var(--lightBlue);
+}
+
+/* home page */
+h1{
+    font-size: 4.5rem;
+    font-weight: 100 !important;
+}
+h1 span{
+    font-weight: 700;
+}
+.main-header p{
+    font-size: 1.7rem;
+    color: var(--white);
+    letter-spacing: 2px;
+    padding: 10px;
+}
+.main-header button, .main-header button a{
+    padding: 1rem;
+    border-radius: 5px;
+    background: var(--white);
+    font-size: 1.75rem;
+    color: var(--mainBlack);
+}
+svg{
+    padding: 10px;
+}
+.main-header button a:hover{
+    text-decoration: none;
+    color: var(--mainBlack) !important;
+}
+
+/* about */
+#about{
+    background: #fafafa;
+}
+.section-title h3{
+    flex-basis: 100%;
+    font-size: 2.5rem;
+    letter-spacing: -.125rem;
+    line-height: 1.25;
+    margin-bottom: 2rem;
+    position: relative;
+    text-align: center;
+}
+h3::after{
+    background-color: #55c0ec;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 160px;
+}
+.span-bold{
+    font-weight: 700;
+}
+.section-content p{
+    font-size: 1.25rem;
+    font-weight: 300 !important;
+}
+.section-full-content p{
+    font-size: 1.25rem;
+    font-weight: 300 !important;
+}
+.section-full-content p span{
+    font-style: italic;
+}
+
+/* features */
+#features{
+    background: var(--maingreen);
+}
+
+.card-img-top{
+    height: 40vh;
+    padding: 45px 0;
+    background: var(--mainBlack);
+}
+.card-text{
+    font-size: 1.3rem;
+    text-align: center;
+    
+}
