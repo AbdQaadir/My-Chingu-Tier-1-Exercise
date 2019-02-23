@@ -1,7 +1,8 @@
 :root{
     --lightBlue: #55c0ec;
     /* --darkBlue: #000d46;*/
-    --mainBlack: rgba(0, 0, 0, 0.6);
+    /* --mainBlack: rgba(0, 0, 0, 0.6); */
+    --mainBlack: #40596b;
     --butter: #ffd05a;
     --white: #fafafa;
     --maingreen: #90ddaa;
@@ -112,5 +113,45 @@ h3::after{
 .card-text{
     font-size: 1.3rem;
     text-align: center;
-    
+}
+
+
+/* Cta - Call to action */
+#cta{
+    background: var(--white);
+}
+.cta-text{
+    font-size: 1.2rem;
+}
+#cta button a{
+    padding: 1rem;
+    border-radius: 5px;
+    background: var(--mainBlack);
+    font-size: 1.75rem;
+    color: var(--white);
+}
+svg{
+    padding: 10px;
+}
+#cta button a:hover{
+    text-decoration: none;
+    color: var(--mainBlack) !important;
+}
+
+/* footer */
+#footer{
+    background: var(--mainBlack);
+    color: var(--white);
+}
+#footer p{
+    margin: 0;
+    font-size: .8rem;
+    opacity: .7;
+}
+strike{
+    color: var(--lightBlue);
+}
+#footer p a {
+    text-decoration: underline;
+    color: var(--white);
 }
