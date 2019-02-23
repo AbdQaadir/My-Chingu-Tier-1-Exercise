@@ -7,6 +7,9 @@
     --white: #fafafa;
     --maingreen: #90ddaa;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Signika', sans-serif;
     color: var(--mainBlack);
@@ -31,6 +34,7 @@ body{
 .main-header{
     background: var(--lightBlue);
 }
+
 
 /* home page */
 h1{
@@ -120,6 +124,17 @@ h3::after{
 #cta{
     background: var(--white);
 }
+.card-text a{
+    text-decoration: underline;
+    color: rgb(8, 143, 189);
+
+}
+.card{
+    background: var(--white);
+}
+.card-text a:hover{
+    color: rgb(8, 143, 189);
+}
 .cta-text{
     font-size: 1.2rem;
 }
@@ -154,4 +169,14 @@ strike{
 #footer p a {
     text-decoration: underline;
     color: var(--white);
+}
+
+#footer .container button{
+    background: var(--butter);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    cursor: pointer;
+    /* position: fixed; */
 }
